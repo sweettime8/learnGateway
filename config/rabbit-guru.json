@@ -1,0 +1,22 @@
+[
+	{
+        "path": "/guru/question",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/guru/question",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+	{
+        "path": "/guru/question",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+	{
+        "path": "/guru/question",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }
+]

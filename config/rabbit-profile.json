@@ -1,0 +1,108 @@
+[    
+    {
+        "path": "/profile",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/profile",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/profile",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }, {
+        "path": "/profile",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/profile",
+        "method": "PATCH",
+        "rabbit": "rpc"
+    }, {
+        "path": "/profile/guru",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/profile/guru",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/profile/guru",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }, {
+        "path": "/profile/guru",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/profile/guru",
+        "method": "PATCH",
+        "rabbit": "rpc"
+    }, {
+        "path": "/profile/tutor",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/profile/tutor",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/profile/tutor",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }, {
+        "path": "/profile/tutor",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/profile/tutor",
+        "method": "PATCH",
+        "rabbit": "rpc"
+    }, {
+        "path": "/profile/parent",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/profile/parent",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/profile/parent",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }, {
+        "path": "/profile/parent",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/profile/parent",
+        "method": "PATCH",
+        "rabbit": "rpc"
+    }, {
+        "path": "/profile/user",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/profile/user",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/profile/user",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }, {
+        "path": "/profile/user",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/profile/user",
+        "method": "PATCH",
+        "rabbit": "rpc"
+    }
+]

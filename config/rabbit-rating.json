@@ -1,0 +1,43 @@
+[    
+    {
+        "path": "/rating",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/rating",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rating",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rating",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rating",
+        "method": "PATCH",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rating/define",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rating/define/detail",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rating/statistic",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/rating/listByUser",
+        "method": "POST",
+        "rabbit": "rpc"
+    }
+]
+
+

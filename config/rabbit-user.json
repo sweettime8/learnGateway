@@ -1,0 +1,76 @@
+[    
+    {
+        "path": "/user",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/user",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/login",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/authorization",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/authentication",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/social-login/google",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/social-login/facebook",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/uuidLst",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/email",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/mobile",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/password",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/exist",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/forgotPassword",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/cms",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/status",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/user/uuidAvatarLst",
+        "method": "POST",
+        "rabbit": "rpc"
+    }
+]

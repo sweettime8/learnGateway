@@ -1,0 +1,59 @@
+[
+    {
+        "path": "/follow",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/follow",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/follow",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/follow",
+        "method": "PATCH",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/follow",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }, {
+        "path": "/follow/action",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/follow/action",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/follow/action",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/follow/action",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }, {
+        "path": "/follow/define",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, {
+        "path": "/follow/cms",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, {
+        "path": "/follow/status",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+]
+

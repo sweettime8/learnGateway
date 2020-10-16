@@ -1,0 +1,37 @@
+[    
+    {
+        "path": "/comment",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/comment",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/comment",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }, {
+        "path": "/comment",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/comment",
+        "method": "PATCH",
+        "rabbit": "rpc"
+    }, {
+        "path": "/comment/approve",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/comment/uuidLst",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/comment/search",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+]
+

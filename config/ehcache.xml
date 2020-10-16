@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache updateCheck="false" monitoring="autodetect" dynamicConfig="true"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd">
+    
+    <diskStore path="java.io.tmpdir" />
+    
+    <cacheManagerPeerProviderFactory
+        class="net.sf.ehcache.distribution.jgroups.JGroupsCacheManagerPeerProviderFactory"
+        properties="channelName=ELC_PRJ_EH_CACHE:connect=UDP(mcast_addr=132.21.12.231;mcast_port=66554;)
+        :PING:MERGE2:FD_SOCK:VERIFY_SUSPECT:pbcast.NAKACK:UNICAST:pbcast.STABLE:FRAG:pbcast.GMS"
+        propertySeparator="::" />
+    
+    <!-- <cacheManagerPeerProviderFactory
+        class="net.sf.ehcache.distribution.jgroups.JGroupsCacheManagerPeerProviderFactory"
+        properties="channelName=ELC_PRJ_EH_CACHE" /> -->
+    
+    <!-- <cacheManagerPeerProviderFactory
+        class="net.sf.ehcache.distribution.jgroups.JGroupsCacheManagerPeerProviderFactory"
+        properties="channelName=ELC_PRJ_EH_CACHE::file=udp.xml"
+        propertySeparator="::" /> -->
+        
+    <!-- <cacheManagerPeerProviderFactory
+        class="net.sf.ehcache.distribution.jgroups.JGroupsCacheManagerPeerProviderFactory"
+        properties="connect=TCP(start_port=7800):
+        TCPPING(initial_hosts=192.168.9.60[7800],103.21.151.185[7800];port_range=10;timeout=3000;
+        num_initial_members=3;up_thread=true;down_thread=true):
+        VERIFY_SUSPECT(timeout=1500;down_thread=false;up_thread=false):
+        pbcast.NAKACK(down_thread=true;up_thread=true;gc_lag=100;retransmit_timeout=3000):
+        pbcast.GMS(join_timeout=5000;join_retry_timeout=2000;shun=false;
+        print_local_addr=false;down_thread=true;up_thread=true)"
+        propertySeparator="::" /> -->
+    
+    <!-- Set cluster cached cho các thành phần muốn đặt cache nhưng ko đặt tên cache -->
+    <defaultCache
+        maxElementsInMemory="6000"
+        maxEntriesLocalHeap="10000"
+        maxEntriesLocalDisk="1000"
+        eternal="false"
+        timeToLiveSeconds="600"
+        timeToIdleSeconds="300"
+        diskSpoolBufferSizeMB="20"
+        memoryStoreEvictionPolicy="LFU"
+        transactionalMode="off">
+        <cacheEventListenerFactory
+            class="net.sf.ehcache.distribution.jgroups.JGroupsCacheReplicatorFactory"
+            properties="replicateAsynchronously=false, replicatePuts=true,
+                    replicateUpdates=true, replicateUpdatesViaCopy=false,
+                    replicateRemovals=true"/>
+        <bootstrapCacheLoaderFactory
+            class="net.sf.ehcache.distribution.jgroups.JGroupsBootstrapCacheLoaderFactory"
+            properties="bootstrapAsynchronously=false"/>
+    </defaultCache>
+    
+    <!-- Set cluster cached cho các thành phần muốn đặt rõ tên cache -->
+    <cache name="elcUserCache" maxElementsInMemory="6000"
+        maxEntriesLocalHeap="10000"
+        maxEntriesLocalDisk="1000"
+        eternal="false"
+        diskSpoolBufferSizeMB="20"
+        timeToIdleSeconds="300" timeToLiveSeconds="600"
+        memoryStoreEvictionPolicy="LFU"
+        transactionalMode="off">
+        <cacheEventListenerFactory
+            class="net.sf.ehcache.distribution.jgroups.JGroupsCacheReplicatorFactory"
+            properties="replicateAsynchronously=false, replicatePuts=true,
+                    replicateUpdates=true, replicateUpdatesViaCopy=false,
+                    replicateRemovals=true"/>
+        <bootstrapCacheLoaderFactory
+            class="net.sf.ehcache.distribution.jgroups.JGroupsBootstrapCacheLoaderFactory"
+            properties="bootstrapAsynchronously=false"/>
+    </cache>
+    
+</ehcache>

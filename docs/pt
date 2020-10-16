@@ -1,0 +1,23 @@
++ Dựng project gateway ==> 
+    - Tạo 1 controller cho client móc vào
+    - Định nghĩa các bản tin đầu vào cho client, bản tin bắn lên 
+    - Service bắn lên rabbit mq dạng pub/sub
+    - Service bắn lên rabbit mq dạng rpc
++ Check lại rabbit mq : server vẫn ngon [ok]
++ Dựng project user service
+
+Loại request(GET, POST,...), Header(Bearer, Vi-indentity..), ServiceName, ServicePath, 
+	RequestData ("
+Bản tin convert từ đầu client call : RequestMethod, InputMediaType, OutputMediaType, ServiceName, ServicePath, RequestData
+Bản tin bắn lên Rabbit : 
+	- Dạng 1 chiều (Routing): ExchangeName, ExchangeServiceNameKey, client call object JsonData
+	- Dạng response lại dữ liệu (RPC): ExchangeName, ExchangeServiceNameKey, client call object JsonData
+		Bản tin convert từ đầu Rabbit trả về => Convert RequestData with OuputMediaType
+		
+- Nâng cấp : Jwt		
+
+1. Thiết kế kiểu tập trung (POST, GET, ...) : Phân biệt các service bằng service name, service path
+	RequestData 	
+
+service.config
+	- service

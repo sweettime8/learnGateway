@@ -1,0 +1,32 @@
+[
+	{
+        "path": "/category",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/category",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+	{
+        "path": "/category",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+	{
+        "path": "/category",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+	{
+        "path": "/category/class-by-category",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+	{
+        "path": "/category/uuidList",
+        "method": "POST",
+        "rabbit": "rpc"
+    }
+]

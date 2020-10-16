@@ -1,0 +1,60 @@
+[
+    {
+        "path": "/claim",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/claim",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/claim",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/claim",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }, {
+        "path": "/claim/action",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/claim/action",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/claim/action",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/claim/action",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }, {
+        "path": "/claim/define",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, {
+        "path": "/claim/cms",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/claim/listByUser",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/claim/status",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }
+]
+

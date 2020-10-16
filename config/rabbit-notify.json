@@ -1,0 +1,25 @@
+[    
+	{
+        "path": "/notify/send-notify",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/notify/get-notify-user",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/notify/create",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/notify/update",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/notify/delete",
+        "method": "POST",
+        "rabbit": "rpc"
+    }
+]

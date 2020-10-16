@@ -1,0 +1,88 @@
+[
+    {
+        "path": "/score-management/rank",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/score-management/rank-internal",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/score-management/score-info",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/score-management/statistic-rank",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/score-management/statistic-score",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/score-management/point-type",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/score-management/point-type",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/score-management/point-type",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/score-management/level",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/score-management/level",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/score-management/level",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/score-management/level-slt-opt",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/score-management/action",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/score-management/action",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/score-management/action",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/score-management/action/progress",
+        "method": "POST",
+        "rabbit": "worker"
+    },
+    {
+        "path": "/score-management/init-user-score",
+        "method": "POST",
+        "rabbit": "worker"
+    }
+]
+

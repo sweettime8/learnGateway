@@ -1,0 +1,188 @@
+[    
+    {
+        "path": "/rbac",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/rbac",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac",
+        "method": "PATCH",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/rbac/authorization",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/role",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/rbac/role",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/role",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/role",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/role",
+        "method": "PATCH",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/module",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/rbac/module",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/module",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/module",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/module",
+        "method": "PATCH",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/permission",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/rbac/permission",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/permission",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/permission",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/permission",
+        "method": "PATCH",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/service",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/rbac/service",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/service",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/service",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/service",
+        "method": "PATCH",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/module/path",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/rbac/module/path",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/module/path",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/module/path",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/module/path",
+        "method": "PATCH",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/role/user",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/rbac/role/user",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/role/user",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/role/user",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/role/user",
+        "method": "PATCH",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/role/userLst",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/path",
+        "method": "GET",
+        "rabbit": "rpc"
+    }, 
+    {
+        "path": "/rbac/path",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/path",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/path",
+        "method": "PUT",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/path",
+        "method": "PATCH",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/role/user/default",
+        "method": "POST",
+        "rabbit": "rpc"
+    }, {
+        "path": "/rbac/admin",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+]

@@ -1,0 +1,92 @@
+[
+	{
+        "path": "/qa",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/qa",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+	{
+        "path": "/qa",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+	{
+        "path": "/qa",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+	{
+        "path": "/qa/answer",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+	{
+        "path": "/qa/answer",
+        "method": "PUT",
+        "rabbit": "rpc"
+    },
+	{
+        "path": "/qa/answer",
+        "method": "DELETE",
+        "rabbit": "rpc"
+    },
+	{
+        "path": "/qa/question-detail",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+	{
+        "path": "/qa/question-clarify",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+	{
+        "path": "/qa/receiver-notify",
+        "method": "POST",
+        "rabbit": "worker"
+    },
+	{
+        "path": "/qa/question-by-user",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+	{
+        "path": "/qa/answer-by-user",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+	{
+        "path": "/qa/approve",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+	{
+        "path": "/qa/question-uuidList",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+	{
+        "path": "/qa/answer-uuidList",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+	{
+        "path": "/qa/question-detail-uuidList",
+        "method": "POST",
+        "rabbit": "rpc"
+    },
+	{
+        "path": "/qa/statistic-by-user",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+	{
+        "path": "/qa/question-info",
+        "method": "GET",
+        "rabbit": "rpc"
+    }
+]

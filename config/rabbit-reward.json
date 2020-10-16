@@ -1,0 +1,13 @@
+[
+    {
+        "path": "/reward/statistics",
+        "method": "GET",
+        "rabbit": "rpc"
+    },
+    {
+        "path": "/reward/statistics",
+        "method": "POST",
+        "rabbit": "worker"
+    }
+]
+
