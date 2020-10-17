@@ -1,0 +1,36 @@
+08-10-2020 11:23:21.466 INFO  c.e.gateway.ElcomServiceApplication.logStarting - Starting ElcomServiceApplication on DESKTOP-BT67ULK with PID 23608 (D:\Work\CoLearn\SourceCode\CoLearnJavaGitLab\learnGateway\target\classes started by Admin in D:\Work\CoLearn\SourceCode\CoLearnJavaGitLab\learnGateway)
+08-10-2020 11:23:21.482 INFO  c.e.gateway.ElcomServiceApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+08-10-2020 11:23:25.677 INFO  c.e.gateway.ElcomServiceApplication.logStarted - Started ElcomServiceApplication in 4.828 seconds (JVM running for 5.35)
+08-10-2020 11:23:59.088 INFO  c.e.gateway.ElcomServiceApplication.logStarting - Starting ElcomServiceApplication on DESKTOP-BT67ULK with PID 23608 (D:\Work\CoLearn\SourceCode\CoLearnJavaGitLab\learnGateway\target\classes started by Admin in D:\Work\CoLearn\SourceCode\CoLearnJavaGitLab\learnGateway)
+08-10-2020 11:23:59.093 INFO  c.e.gateway.ElcomServiceApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+08-10-2020 11:24:01.869 INFO  c.e.gateway.ElcomServiceApplication.logStarted - Started ElcomServiceApplication in 3.224 seconds (JVM running for 41.541)
+08-10-2020 11:24:22.188 INFO  c.e.gateway.ElcomServiceApplication.logStarting - Starting ElcomServiceApplication on DESKTOP-BT67ULK with PID 23608 (D:\Work\CoLearn\SourceCode\CoLearnJavaGitLab\learnGateway\target\classes started by Admin in D:\Work\CoLearn\SourceCode\CoLearnJavaGitLab\learnGateway)
+08-10-2020 11:24:22.189 INFO  c.e.gateway.ElcomServiceApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+08-10-2020 11:24:24.788 INFO  c.e.gateway.ElcomServiceApplication.logStarted - Started ElcomServiceApplication in 2.694 seconds (JVM running for 64.46)
+08-10-2020 13:10:18.756 INFO  c.e.gateway.ElcomServiceApplication.logStarting - Starting ElcomServiceApplication on DESKTOP-BT67ULK with PID 19080 (D:\Work\CoLearn\SourceCode\CoLearnJavaGitLab\learnGateway\target\classes started by Admin in D:\Work\CoLearn\SourceCode\CoLearnJavaGitLab\learnGateway)
+08-10-2020 13:10:18.760 INFO  c.e.gateway.ElcomServiceApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+08-10-2020 13:10:26.105 INFO  c.e.gateway.ElcomServiceApplication.logStarted - Started ElcomServiceApplication in 8.078 seconds (JVM running for 14.378)
+08-10-2020 13:14:20.848 INFO  c.e.gateway.ElcomServiceApplication.logStarting - Starting ElcomServiceApplication on DESKTOP-BT67ULK with PID 19080 (D:\Work\CoLearn\SourceCode\CoLearnJavaGitLab\learnGateway\target\classes started by Admin in D:\Work\CoLearn\SourceCode\CoLearnJavaGitLab\learnGateway)
+08-10-2020 13:14:20.848 INFO  c.e.gateway.ElcomServiceApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+08-10-2020 13:14:23.503 INFO  c.e.gateway.ElcomServiceApplication.logStarted - Started ElcomServiceApplication in 2.739 seconds (JVM running for 251.776)
+08-10-2020 13:18:42.176 INFO  c.e.gateway.ElcomServiceApplication.logStarting - Starting ElcomServiceApplication on DESKTOP-BT67ULK with PID 19080 (D:\Work\CoLearn\SourceCode\CoLearnJavaGitLab\learnGateway\target\classes started by Admin in D:\Work\CoLearn\SourceCode\CoLearnJavaGitLab\learnGateway)
+08-10-2020 13:18:42.177 INFO  c.e.gateway.ElcomServiceApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+08-10-2020 13:18:45.735 INFO  c.e.gateway.ElcomServiceApplication.logStarted - Started ElcomServiceApplication in 3.663 seconds (JVM running for 514.007)
+08-10-2020 13:19:01.635 INFO  c.e.gateway.ElcomServiceApplication.logStarting - Starting ElcomServiceApplication on DESKTOP-BT67ULK with PID 19080 (D:\Work\CoLearn\SourceCode\CoLearnJavaGitLab\learnGateway\target\classes started by Admin in D:\Work\CoLearn\SourceCode\CoLearnJavaGitLab\learnGateway)
+08-10-2020 13:19:01.635 INFO  c.e.gateway.ElcomServiceApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+08-10-2020 13:19:02.909 INFO  c.e.gateway.ElcomServiceApplication.logStarted - Started ElcomServiceApplication in 1.338 seconds (JVM running for 531.182)
+08-10-2020 13:19:52.950 INFO  c.e.gateway.ElcomServiceApplication.logStarting - Starting ElcomServiceApplication on DESKTOP-BT67ULK with PID 19080 (D:\Work\CoLearn\SourceCode\CoLearnJavaGitLab\learnGateway\target\classes started by Admin in D:\Work\CoLearn\SourceCode\CoLearnJavaGitLab\learnGateway)
+08-10-2020 13:19:52.951 INFO  c.e.gateway.ElcomServiceApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+08-10-2020 13:19:54.875 INFO  c.e.gateway.ElcomServiceApplication.logStarted - Started ElcomServiceApplication in 1.995 seconds (JVM running for 583.148)
+08-10-2020 13:20:48.529 INFO  c.e.gateway.ElcomServiceApplication.logStarting - Starting ElcomServiceApplication on DESKTOP-BT67ULK with PID 19720 (D:\Work\CoLearn\SourceCode\CoLearnJavaGitLab\learnGateway\target\classes started by Admin in D:\Work\CoLearn\SourceCode\CoLearnJavaGitLab\learnGateway)
+08-10-2020 13:20:48.534 INFO  c.e.gateway.ElcomServiceApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+08-10-2020 13:20:59.664 INFO  c.e.gateway.ElcomServiceApplication.logStarted - Started ElcomServiceApplication in 11.94 seconds (JVM running for 13.223)
+08-10-2020 13:24:06.130 INFO  c.e.gateway.ElcomServiceApplication.logStarting - Starting ElcomServiceApplication on DESKTOP-BT67ULK with PID 19720 (D:\Work\CoLearn\SourceCode\CoLearnJavaGitLab\learnGateway\target\classes started by Admin in D:\Work\CoLearn\SourceCode\CoLearnJavaGitLab\learnGateway)
+08-10-2020 13:24:06.130 INFO  c.e.gateway.ElcomServiceApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+08-10-2020 13:24:10.541 INFO  c.e.gateway.ElcomServiceApplication.logStarted - Started ElcomServiceApplication in 4.584 seconds (JVM running for 204.101)
+08-10-2020 13:26:25.669 INFO  c.e.gateway.ElcomServiceApplication.logStarting - Starting ElcomServiceApplication on DESKTOP-BT67ULK with PID 19720 (D:\Work\CoLearn\SourceCode\CoLearnJavaGitLab\learnGateway\target\classes started by Admin in D:\Work\CoLearn\SourceCode\CoLearnJavaGitLab\learnGateway)
+08-10-2020 13:26:25.669 INFO  c.e.gateway.ElcomServiceApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+08-10-2020 13:26:29.797 INFO  c.e.gateway.ElcomServiceApplication.logStarted - Started ElcomServiceApplication in 4.201 seconds (JVM running for 343.358)
+08-10-2020 13:27:10.983 INFO  c.e.gateway.ElcomServiceApplication.logStarting - Starting ElcomServiceApplication on DESKTOP-BT67ULK with PID 24124 (D:\Work\CoLearn\SourceCode\CoLearnJavaGitLab\learnGateway\target\classes started by Admin in D:\Work\CoLearn\SourceCode\CoLearnJavaGitLab\learnGateway)
+08-10-2020 13:27:10.993 INFO  c.e.gateway.ElcomServiceApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+08-10-2020 13:27:16.135 INFO  c.e.gateway.ElcomServiceApplication.logStarted - Started ElcomServiceApplication in 6.525 seconds (JVM running for 7.693)

@@ -6,6 +6,7 @@
 package com.elcom.gateway.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import java.io.IOException;
 import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import org.springframework.http.MediaType;
@@ -28,7 +29,7 @@ public class GatewayController extends BaseController {
     //GET
     @RequestMapping(value = "**", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<String> getMethod(@RequestParam Map<String, String> reqParam,
-            @RequestHeader Map<String, String> headers, HttpServletRequest req) throws JsonProcessingException {
+            @RequestHeader Map<String, String> headers, HttpServletRequest req) throws JsonProcessingException, IOException {
         return processRequest("GET", reqParam, null, headers, req);
     }
 
@@ -36,7 +37,7 @@ public class GatewayController extends BaseController {
     @RequestMapping(value = "**", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<String> postMethod(@RequestParam Map<String, String> reqParam,
             @RequestBody(required = false) Map<String, Object> requestBody, @RequestHeader Map<String, String> headers,
-            HttpServletRequest req) throws JsonProcessingException {
+            HttpServletRequest req) throws JsonProcessingException, IOException {
         return processRequest("POST", reqParam, requestBody, headers, req);
     }
 
@@ -44,7 +45,7 @@ public class GatewayController extends BaseController {
     @RequestMapping(value = "**", method = RequestMethod.PUT, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<String> putMethod(@RequestParam Map<String, String> reqParam,
             @RequestBody(required = false) Map<String, Object> requestBody, @RequestHeader Map<String, String> headers,
-            HttpServletRequest req) throws JsonProcessingException {
+            HttpServletRequest req) throws JsonProcessingException, IOException {
         return processRequest("PUT", reqParam, requestBody, headers, req);
     }
 
@@ -52,7 +53,7 @@ public class GatewayController extends BaseController {
     @RequestMapping(value = "**", method = RequestMethod.PATCH, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<String> patchMethod(@RequestParam Map<String, String> reqParam,
             @RequestBody(required = false) Map<String, Object> requestBody, @RequestHeader Map<String, String> headers,
-            HttpServletRequest req) throws JsonProcessingException {
+            HttpServletRequest req) throws JsonProcessingException, IOException {
         return processRequest("PATCH", reqParam, requestBody, headers, req);
     }
 
@@ -60,7 +61,7 @@ public class GatewayController extends BaseController {
     @RequestMapping(value = "**", method = RequestMethod.DELETE, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<String> deleteMethod(@RequestParam Map<String, String> reqParam,
             @RequestBody(required = false) Map<String, Object> requestBody, @RequestHeader Map<String, String> headers,
-            HttpServletRequest req) throws JsonProcessingException {
+            HttpServletRequest req) throws JsonProcessingException, IOException {
         return processRequest("DELETE", reqParam, requestBody, headers, req);
     }
 }
